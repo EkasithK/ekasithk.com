@@ -296,6 +296,22 @@ export const content: Content = {
       status: "in-progress",
       links: [],
     },
+    {
+      name: "RoadProof / $PAVE",
+      role: "Creator · Product, Tokenomics & AI",
+      blurb:
+        "A crowd-sourced, AI-validated road-hazard network: drivers' phones detect potholes; cities get a trustworthy repair map. (In development.)",
+      description:
+        "A mobile DePIN concept on Solana. Drivers' accelerometer + GPS detect road hazards, an AI layer validates the data and filters out spoofers, and cities/insurers pay for a ranked repair map. I built a blockchain from scratch to learn the fundamentals, designed the tokenomics and threat model, and shipped an interactive concept demo. A research/build project — not a token sale.",
+      stack: ["Solana", "Python", "AI / ML", "Next.js", "DePIN"],
+      highlights: [
+        "Interactive concept demo at pave.ekasithk.com",
+        "AI-validated data — a 'confirmation over trust' design",
+        "Fair-launch, utility-first tokenomics",
+      ],
+      status: "in-progress",
+      links: [{ label: "Concept Site", url: "https://pave.ekasithk.com" }],
+    },
   ],
   experience: [
     {
