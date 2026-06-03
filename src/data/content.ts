@@ -172,6 +172,12 @@ export const content: Content = {
       tag: "wip",
     },
     {
+      label: "RoadProof / $PAVE",
+      desc: "AI-validated road-hazard network — concept demo",
+      url: "https://pave.ekasithk.com",
+      tag: "wip",
+    },
+    {
       label: "GitHub",
       desc: "Code, projects & experiments",
       url: "https://github.com/EkasithK",
