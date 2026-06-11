@@ -155,9 +155,9 @@ export const content: Content = {
   quickLinks: [
     {
       label: "Digital Twin Dashboard",
-      desc: "Live EGAT substation monitoring",
-      url: "https://dt.ekasithk.com",
-      tag: "live",
+      desc: "Interactive demo · EGAT substation monitoring",
+      url: "https://dt-demo.ekasithk.com",
+      tag: "demo",
     },
     {
       label: "Research Paper",
@@ -284,12 +284,12 @@ export const content: Content = {
         "Research project for the Electricity Generating Authority of Thailand (EGAT): “A Study on Data Interoperability Across the Asset Lifecycle with Commercial Digital Twin Platforms: A Case Study of High-Voltage Substations (DG–GEN, DG–TRN).” I lead the digital-twin platform build, AI integration, and project management/delivery.",
       stack: ["Python", "FastAPI", "Next.js", "Digital Twin", "AI / ML", "PostgreSQL"],
       highlights: [
-        "Live monitoring dashboard at dt.ekasithk.com",
+        "Interactive demo dashboard at dt-demo.ekasithk.com",
         "End-to-end asset-lifecycle data interoperability study",
         "Case study: high-voltage substations (DG–GEN, DG–TRN)",
       ],
       status: "in-progress",
-      links: [{ label: "Live Dashboard", url: "https://dt.ekasithk.com" }],
+      links: [{ label: "Live Demo", url: "https://dt-demo.ekasithk.com" }],
     },
     {
       name: "Pixel Trading Office",
@@ -328,7 +328,7 @@ export const content: Content = {
       end: "Present",
       bullets: [
         "Lead the end-to-end build of a digital-twin platform for EGAT high-voltage substations — architecture, AI integration, and delivery.",
-        "Designed and shipped the live monitoring dashboard (dt.ekasithk.com), unifying asset-lifecycle data across sources.",
+        "Designed and shipped the monitoring dashboard (public demo: dt-demo.ekasithk.com), unifying asset-lifecycle data across sources.",
         "Drive the study of data interoperability between full asset-lifecycle data and commercial digital-twin platforms (DG–GEN, DG–TRN case studies).",
         "Authored a peer-reviewed paper in MDPI Buildings (2025) on computer-vision PPE detection for construction safety.",
       ],

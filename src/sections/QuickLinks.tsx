@@ -5,6 +5,7 @@ import { ExternalIcon } from "@/components/Icons";
 
 const TAG_STYLES: Record<string, string> = {
   live: "text-green border-green/40 bg-green/10",
+  demo: "text-green border-green/40 bg-green/10",
   paper: "text-cyan border-cyan/40 bg-cyan/10",
   wip: "text-amber border-amber/40 bg-amber/10",
   code: "text-muted border-line bg-panel-2",
