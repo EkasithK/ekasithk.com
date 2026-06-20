@@ -160,6 +160,12 @@ export const content: Content = {
       tag: "demo",
     },
     {
+      label: "Airport AI",
+      desc: "Passenger forecasting + security RAG · live demo",
+      url: "https://airport.ekasithk.com",
+      tag: "demo",
+    },
+    {
       label: "Research Paper",
       desc: "ESPCN-YOLO · MDPI Buildings (2025)",
       url: "https://www.mdpi.com/2075-5309/15/10/1609",
@@ -276,22 +282,6 @@ export const content: Content = {
   ],
   projects: [
     {
-      name: "Airport AI — Forecasting & Security Assistant",
-      role: "Creator · Full-stack, AI & Data",
-      blurb:
-        "Two operations-AI systems for airports: a passenger-throughput forecaster and a retrieval-augmented security assistant, with a live departures-board demo.",
-      description:
-        "A self-directed build exploring practical AI for airport operations. The first system forecasts daily passenger throughput (a seasonal baseline, a LightGBM model, and a flight-schedule leading indicator that compete on a walk-forward backtest, with the winner served) and turns it into an hour-by-hour checkpoint wait-time and lanes-needed plan. The second is a RAG chatbot that answers airport-security questions only from a cited document index — refusing when an answer isn't grounded — and replies in the asker's language. Modelled on public TSA throughput data at single-hub scale; provider-agnostic LLM (local Ollama for dev, Claude on AWS Bedrock for production).",
-      stack: ["Python", "FastAPI", "LightGBM", "RAG", "pgvector", "Next.js", "AWS Bedrock"],
-      highlights: [
-        "Live departures-board (FIDS) demo at airport.ekasithk.com",
-        "Backtested forecaster that auto-serves the champion model",
-        "Grounded, cited, multi-language RAG — refuses when unsure",
-      ],
-      status: "in-progress",
-      links: [{ label: "Live Demo", url: "https://airport.ekasithk.com" }],
-    },
-    {
       name: "EGAT Digital Twin — High-Voltage Substations",
       role: "Researcher · Platform, AI & Project Management",
       blurb:
@@ -308,15 +298,20 @@ export const content: Content = {
       links: [{ label: "Live Demo", url: "https://dt-demo.ekasithk.com" }],
     },
     {
-      name: "Pixel Trading Office",
-      role: "Creator",
-      blurb: "An experimental 8-bit office staffed by autonomous AI trading agents. (Early development.)",
+      name: "Airport AI — Forecasting & Security Assistant",
+      role: "Creator · Full-stack, AI & Data",
+      blurb:
+        "Two operations-AI systems for airports: a passenger-throughput forecaster and a retrieval-augmented security assistant, with a live departures-board demo.",
       description:
-        "A personal R&D project — a pixel-art office where autonomous AI agents research and trade. Currently in early development; details to follow as it matures.",
-      stack: ["Python", "AI Agents"],
-      highlights: [],
+        "A self-directed build exploring practical AI for airport operations. The first system forecasts daily passenger throughput (a seasonal baseline, a LightGBM model, and a flight-schedule leading indicator that compete on a walk-forward backtest, with the winner served) and turns it into an hour-by-hour checkpoint wait-time and lanes-needed plan. The second is a RAG chatbot that answers airport-security questions only from a cited document index — refusing when an answer isn't grounded — and replies in the asker's language. Modelled on public TSA throughput data at single-hub scale; provider-agnostic LLM (local Ollama for dev, Claude on AWS Bedrock for production).",
+      stack: ["Python", "FastAPI", "LightGBM", "RAG", "pgvector", "Next.js", "AWS Bedrock"],
+      highlights: [
+        "Live departures-board (FIDS) demo at airport.ekasithk.com",
+        "Backtested forecaster that auto-serves the champion model",
+        "Grounded, cited, multi-language RAG — refuses when unsure",
+      ],
       status: "in-progress",
-      links: [],
+      links: [{ label: "Live Demo", url: "https://airport.ekasithk.com" }],
     },
     {
       name: "RoadProof / $PAVE",
@@ -333,6 +328,17 @@ export const content: Content = {
       ],
       status: "in-progress",
       links: [{ label: "Concept Site", url: "https://pave.ekasithk.com" }],
+    },
+    {
+      name: "Pixel Trading Office",
+      role: "Creator",
+      blurb: "An experimental 8-bit office staffed by autonomous AI trading agents. (Early development.)",
+      description:
+        "A personal R&D project — a pixel-art office where autonomous AI agents research and trade. Currently in early development; details to follow as it matures.",
+      stack: ["Python", "AI Agents"],
+      highlights: [],
+      status: "in-progress",
+      links: [],
     },
   ],
   experience: [
